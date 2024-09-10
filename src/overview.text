@@ -1,0 +1,50 @@
+root/
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   ├── config/
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── assets/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+├── package.json (for backend)
+├── package.json (for frontend)
+└── README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+src/
+├── components/
+│   ├── Navbar/
+│   │   ├── Navbar.js
+│   │   └── Navbar.css
+│   ├── SecondNav/
+│   │   ├── SecondNav.js
+│   │   └── SecondNav.css
+│   ├── MainBanner/
+│   │   ├── MainBanner.js
+│   │   └── MainBanner.css
+│   └── ... (other components)

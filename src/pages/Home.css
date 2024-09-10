@@ -1,0 +1,11 @@
+.banner-image{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.container{
+    align-items: center;
+    margin-top: 20px;
+}

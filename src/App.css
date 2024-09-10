@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-section {
+    display: flex;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .left-side {
+    width: 20%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #9e8282;
+    position: sticky;
+    top: 0;
+    height: 100%;
+    
   }
-  to {
-    transform: rotate(360deg);
+  
+  .right-side {
+    width: 80%;
+    padding: 20px;
   }
-}
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .product-card:hover {
+
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card h3 {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+  }
+  
+  .product-card .discount-price {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .product-card .original-price {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .product-card .product-rating {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    /* background-color: green; */
+  }
+  
+  .filter h3, .filter h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .filter ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .filter ul li {
+    cursor: pointer;
+    padding: 5px 0;
+    font-size: 0.9em;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .filter ul li:hover {
+    color: #007bff;
+    transform: scale(1.1);
+    transition: 0.5s;
+
+  }
+  
+  .filter-category, .filter-gender, .filter-fabric, .filter-color, .filter-price {
+    margin-bottom: 20px;
+  }
+  

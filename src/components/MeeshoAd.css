@@ -1,0 +1,58 @@
+.meesho-ad {
+    display: flex;
+    /* justify-content: space-between; */
+    height: 180px;
+    align-items: center;
+    padding: 120px;
+    margin-bottom: 100px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .meesho-text {
+    flex: 1;
+    /* max-width: 30%; */
+  }
+  
+  .meesho-text h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .meesho-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  
+  .icon span {
+    margin-top: 5px;
+    font-size: 0.875rem;
+  }
+  
+  .meesho-button {
+    background-color: #93329e;
+    color: white;
+  }
+  
+  .meesho-images img {
+    max-width: 90%;
+    height: 250px;
+    display: block;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .playstore{
+    height: 38px;
+    margin-right: 10px;
+  }
